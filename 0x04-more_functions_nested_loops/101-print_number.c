@@ -21,7 +21,7 @@ if (n < 0)
 i /= 10;
 
 if (i != 0)
-	print_number(k);
+	print_number(i);
 
 _putchar((unsigned int) n % 10 + '0');
 }
